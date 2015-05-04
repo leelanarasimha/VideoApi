@@ -12,7 +12,7 @@ class VimeoService implements VideoApiInterface {
         $url = "http://vimeo.com/api/v2/video/$video_id.json";
         $result = $this->performCurlRequest($url);
         $json = json_decode($result);
-        $this->formatDetails($json[0]);
+        return $this->formatDetails($json[0]);
     }
 
     private function formatDetails($data)
