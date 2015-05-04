@@ -1,6 +1,6 @@
 {
-    "name": "leela narasimha/video-api",
-    "description": "Gets the Videos from all the major video sharing websites",
+    "name": "leela/VideoApi",
+    "description": "Gets the Videos from all the major video sharing websites. Supports Youtube, Dialymotion and Vimeo",
     "license": "MIT",
     "authors": [
         {
